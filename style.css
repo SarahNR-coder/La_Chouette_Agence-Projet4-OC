@@ -6,6 +6,19 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+/*Ajustement de la taille du corps du texte*/
+.body-size-up{
+    font-size : 14px;
+}
+
+.contact-team {
+    margin-top : 20px;
+}
+
+/*page Contact infos pratiques*/
+.infos{
+    margin : 0;
+}
 
 a,
 button {
@@ -821,7 +834,7 @@ h4 {
 }
 
 /*
-*Classes des textes de remplacement pour les images de textes
+*Classes des textes de remplacement pour les images de textes et rectification du contraste couleur
 */
 .presentation{
     padding : 0 15vw 0 15vw;
