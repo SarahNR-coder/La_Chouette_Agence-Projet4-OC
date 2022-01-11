@@ -90,11 +90,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -749,11 +744,11 @@ h4 {
 }
 
 .avatar {
-    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 9px rgba(0, 0, 0);
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #000000;
     padding: 40px 40px 40px 40px;
 }
 
@@ -829,18 +824,17 @@ h4 {
 *Classes des textes de remplacement pour les images de textes
 */
 .presentation{
-    padding : 0 20% 0 20%;
+    padding : 0 15vw 0 15vw;
     text-align: justify;
 }
 .quote{
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
-    font-family:"helvetica";
-    font-style : italic;
-    font-weight: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
     color: #575757;
-    line-height : 24px;  
-    padding : 0 28% 0 28%;
+    line-height : 27px;  
+    padding : 0 21vw 0 21vw;
     margin: 0 0 2px 0;
 }
 
@@ -854,11 +848,20 @@ h4 {
 .works{
     font-size: 22px;
     text-align: center;
-    font-family:"helvetica";
+    font-family:"Helvetica";
+    font-weight :500;
     color: #575757;
     line-height : 30px;  
-    padding : 0 29% 0 29%;
+    padding : 0 26vw 0 26vw;
     margin: 0 0 2px 0;
+}
+
+.ok-contrast{
+    color :#4C0202;
+}
+
+.ok-contrast-contact-banner{
+    color : #421501;
 }
 
 @media (max-width: 1024px) {
